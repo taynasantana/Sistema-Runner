@@ -5,6 +5,7 @@ O sistema deve facilitar a execução de aplicações Java via linha de comando,
 Ou seja, o usuário consegue executar funcionalidades do assinador.jar através de um CLI simples.
 
 Requisitos Funcionais
+
 Os requisitos funcionais estão organizados em histórias de usuário (US-01 a US-05).
 
 US-01 — Invocar o assinador.jar via CLI
