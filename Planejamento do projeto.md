@@ -1,4 +1,4 @@
-1° Semana : Planejamento
+.1° Semana : Planejamento
 *Ler e organizar requisitos
 *Definir tecnologias
 *Criar repositório no GitHub
