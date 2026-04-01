@@ -48,22 +48,14 @@ US-03 — Gerenciar o Simulador do HubSaúde.
 
 O CLI deve permitir controlar o simulador.jar.
 
-Funções obrigatórias:
+Funções obrigatórias: 
+iniciar simulador, 
+parar simulador, 
+verificar status do simulador, 
 
-✔ iniciar simulador
-✔ parar simulador
-✔ verificar status do simulador
-
-Exemplo:
-
-simulador start
-simulador stop
-simulador status
-
-O CLI também deve:
-
-✔ baixar automaticamente o simulador.jar do GitHub
-✔ não baixar novamente se já existir localmente
+O CLI também deve: 
+baixar automaticamente o simulador.jar do GitHub, 
+não baixar novamente se já existir localmente.
 
 US-04 — Provisionar JDK automaticamente
 
