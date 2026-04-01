@@ -10,23 +10,23 @@ Os requisitos funcionais estão organizados em histórias de usuário (US-01 a U
 US-01 — Invocar o assinador.jar via CLI
 
 O sistema deve permitir executar comandos que chamam o assinador.jar.
-O CLI deve permitir:
-Criar assinatura digital
-Validar assinatura digital
-Executar assinador localmente
-Executar assinador como servidor HTTP
-O CLI também deve:
-Iniciar o assinador.jar
-Detectar se já existe instância rodando
-Reutilizar servidor existente
-Permitir parar o assinador
-Permitir encerramento automático por timeout
+O CLI deve permitir: 
+Criar assinatura digital, 
+Validar assinatura digital, 
+Executar assinador localmente, 
+Executar assinador como servidor HTTP. 
+O CLI também deve: 
+Iniciar o assinador.jar, 
+Detectar se já existe instância rodando, 
+Reutilizar servidor existente, 
+Permitir parar o assinador, 
+Permitir encerramento automático por timeout. 
 
-Exemplo de comandos:
-assinatura sign
-assinatura validate
-assinatura start
-assinatura stop
+Exemplo de comandos: 
+assinatura sign, 
+assinatura validate, 
+assinatura start, 
+assinatura stop.
 
 US-02 — Simular assinatura digital com validação de parâmetros
 
