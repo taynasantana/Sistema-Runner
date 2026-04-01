@@ -8,20 +8,20 @@ Requisitos Funcionais
 
 Os requisitos funcionais estão organizados em histórias de usuário (US-01 a US-05).
 
-US-01 — Invocar o assinador.jar via CLI
+US-01 — Invocar o assinador.jar via CLI.
 
 O sistema deve permitir executar comandos que chamam o assinador.jar.
 O CLI deve permitir: 
-Criar assinatura digital, 
-Validar assinatura digital, 
-Executar assinador localmente, 
-Executar assinador como servidor HTTP. 
+criar assinatura digital, 
+validar assinatura digital, 
+executar assinador localmente, 
+executar assinador como servidor HTTP. 
 O CLI também deve: 
-Iniciar o assinador.jar, 
-Detectar se já existe instância rodando, 
-Reutilizar servidor existente, 
-Permitir parar o assinador, 
-Permitir encerramento automático por timeout. 
+iniciar o assinador.jar, 
+detectar se já existe instância rodando, 
+reutilizar servidor existente, 
+permitir parar o assinador, 
+permitir encerramento automático por timeout. 
 
 Exemplo de comandos: 
 assinatura sign, 
@@ -29,20 +29,13 @@ assinatura validate,
 assinatura start, 
 assinatura stop.
 
-US-02 — Simular assinatura digital com validação de parâmetros
+US-02 — Simular assinatura digital com validação de parâmetros.
 
-O assinador.jar deve:
-
-✔ validar todos os parâmetros recebidos
-✔ retornar erro quando parâmetros estiverem inválidos
-✔ simular criação de assinatura
-✔ simular validação de assinatura
-
-Importante:
-
-❗ não é assinatura criptográfica real.
-
-É apenas simulação.
+O assinador.jar deve: 
+validar todos os parâmetros recebidos, 
+retornar erro quando parâmetros estiverem inválidos, 
+simular criação de assinatura, 
+simular validação de assinatura.
 
 Exemplo de resposta simulada
 {
@@ -50,7 +43,8 @@ Exemplo de resposta simulada
  "algorithm": "SHA256withRSA",
  "status": "SIGNED"
 }
-US-03 — Gerenciar o Simulador do HubSaúde
+
+US-03 — Gerenciar o Simulador do HubSaúde.
 
 O CLI deve permitir controlar o simulador.jar.
 
