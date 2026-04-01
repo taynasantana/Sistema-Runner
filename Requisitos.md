@@ -57,28 +57,23 @@ O CLI também deve:
 baixar automaticamente o simulador.jar do GitHub, 
 não baixar novamente se já existir localmente.
 
-US-04 — Provisionar JDK automaticamente
+US-04 — Provisionar JDK automaticamente.
 
 O sistema deve verificar se existe Java instalado.
 
-Se não existir:
+Se não existir: 
+baixar automaticamente o JDK compatível, 
+armazenar localmente, 
+reutilizar em execuções futuras.
 
-✔ baixar automaticamente o JDK compatível
-✔ armazenar localmente
-✔ reutilizar em execuções futuras
-
-Local sugerido:
-
-~/.hubsaude/jdk/
-US-05 — Distribuição multiplataforma
+US-05 — Distribuição multiplataforma.
 
 O projeto deve fornecer executáveis prontos.
 
-Plataformas obrigatórias:
-
-✔ Windows amd64
-✔ Linux amd64
-✔ macOS amd64
+Plataformas obrigatórias: 
+Windows amd64, 
+Linux amd64, 
+macOS amd64.
 
 Exemplo de arquivos:
 
@@ -86,4 +81,4 @@ assinatura-1.0.0-windows-amd64.exe
 assinatura-1.0.0-linux-amd64.AppImage
 assinatura-1.0.0-macos-amd64.dmg
 
-Esses arquivos devem ser publicados no:
+
