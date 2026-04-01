@@ -75,10 +75,5 @@ Windows amd64,
 Linux amd64, 
 macOS amd64.
 
-Exemplo de arquivos:
-
-assinatura-1.0.0-windows-amd64.exe
-assinatura-1.0.0-linux-amd64.AppImage
-assinatura-1.0.0-macos-amd64.dmg
 
 
